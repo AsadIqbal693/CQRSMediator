@@ -4,6 +4,7 @@ In order to solve this problem, let’s use CQRS & Mediator Patterns.
 
 CQRS stands for Command Query Responsibility Segregation. That is separating Command (write) and Query (read) models of an application to scale read and write operations of an application independently. Instead of having all of the four CRUD operations together, let us segment out to two different pieces.
 
+<img width="331" alt="CQR" src="https://user-images.githubusercontent.com/99949618/154635191-0c5e40d0-bf46-40ad-9f90-036065913a44.png">
 
 
 Mediator is used to reduce communication complexity between multiple objects or classes. This pattern provides a mediator class which normally handles all the communications between different classes and supports easy maintenance of the code by loose coupling. Mediator pattern falls under behavioural pattern category.
